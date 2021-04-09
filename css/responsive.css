@@ -1,0 +1,1174 @@
+@media (min-width:320px) and (max-width:575px) {
+/* =================header start=============== */
+    header p {
+        display: block;
+        text-align: center;
+    }
+    header .reg {
+        display: block;
+        text-align: center;
+    }
+/* =================header end=============== */
+/* =================navbar start=============== */
+    .navbar-toggler{
+        margin-top: 30px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        font-size: 30px;
+        color: #2d3e50;
+    }
+    nav ul{
+    background: #2d3e50;
+    text-align: center;
+    padding: 20px 0;
+    }
+    nav ul li{
+        padding-top: 0;
+        padding-right: 0;
+    }
+    nav ul li a{
+    color: white;
+    }
+    nav .button {
+        background: #2d3e50;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    nav .button a {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+/* =================navbar end=============== */
+/* =================banner start=============== */
+#banner-part .banner .overlay {
+	padding-top: 40px;
+	padding-bottom: 75px;
+}
+#banner-part .banner .overlay h2 {
+	font-size: 28px;
+}
+#banner-part .banner .overlay h1 {
+	font-size: 38px;
+}
+#banner-part .banner .overlay h3 {
+	font-size: 42px;
+}
+#banner-part .banner .overlay p {
+	width: auto;
+	padding-bottom: 30px;
+}
+#banner-part .banner .overlay a {
+	font-size: 16px;
+	padding: 13px 12px;
+}
+#banner-part .slick-dots{
+    position: absolute;
+    bottom: 0;left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0 !important;
+}
+#banner-part .slick-dots li{
+    display: inline-block;
+}
+#banner-part .slick-dots li button {
+	font-size: 0;
+	background: transparent;
+	border: 1px solid #fbaa33;
+	border-radius: 50%;
+	margin: 0 10px;
+	width: 10px;
+	height: 10px;
+}
+#banner-part .slick-dots .slick-active button{
+    background: #fbaa33;
+}
+/* =================banner end=============== */
+
+/* =================banner-bottom start=============== */
+#banner-bottom {
+	margin: 50px 0;
+}
+#banner-bottom .item {
+	transform: translateY(0);
+}
+.title p {
+	padding-top: 0;
+	width: auto;
+}
+/* =================banner-bottom end=============== */
+
+/* =================about-part start=============== */
+#about-part .slick-dots {
+	left: 15%;
+}
+#about-part .rev_slider::after {
+	bottom: 12%;
+}
+#about-part .rev_slider::before {
+	top: -4%;
+}
+#about-part .text-part {
+	padding-top: 0;
+}
+#about-part .text-part a {
+	padding: 12px 10px;
+}
+
+/* =================about-part end=============== */
+
+/* =================counter-part start=============== */
+#counter-part .item {
+	padding: 15px 0;
+}
+#counter-part .item h3 {
+	font-size: 32px;
+}
+#counter-part .item p {
+	font-size: 24px;
+	padding-bottom: 0px;
+}
+/* =================counter-part end=============== */
+
+/* =================course-part start=============== */
+#course-part .slick-dots .slick-active button {
+	background: #fbaa33;
+}
+#course-part ul{
+    text-align: center;
+    padding: 0;
+}
+#course-part .slick-dots li {
+	display: inline-block;
+}
+#course-part .slick-dots li button {
+	font-size: 0;
+	background: transparent;
+	border: 1px solid #fbaa33;
+	border-radius: 50%;
+	margin: 0 10px;
+	width: 10px;
+	height: 10px;
+}
+#course-part .item .introduction {
+	padding-left: 0px;
+    justify-content: space-between;
+}
+#course-part .item .introduction .name p {
+	font-size: 13px;
+	padding-left: 6px;
+}
+#course-part .item .introduction .name h2 {
+	font-size: 14px;
+	padding-left: 6px;
+}
+#course-part .item .introduction .rating ul li {
+	font-size: 10px;
+}
+#course-part .item .introduction .rating ul {
+	margin-left: 13px;
+}
+/* =================course-part end=============== */
+
+/* =================event-part end=============== */
+#event-part .calender img{
+    padding: 0 12px;
+    margin-bottom: 30px;
+}
+#event-part .item{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#event-part .item:hover {
+    box-shadow: none;
+}
+#event-part .item .img{
+    padding: 25px;
+    
+}
+#event-part .item .img img{
+    margin-top: 30px;
+}
+#event-part .item .img .overlay {
+    width: 19%;
+    height: 17%;
+    bottom: 26px;
+    right: 25px;
+} 
+#event-part .item .text {
+    padding: 10px 25px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    padding-left: 34px;
+}   
+
+/* =================event-part end=============== */
+
+/* =================testimonial-part start=============== */
+#testimonial-part .details p {
+	width: auto;
+	padding-left: 66px;
+	padding-top: 20px;
+	padding-right: 64px;
+}
+#testimonial-part .details h2 {
+	font-size: 18px;
+	padding-bottom: 7px;
+	padding-top: 20px;
+}
+#testimonial-part .details h2 span {
+	font-size: 12px;
+}
+#testimonial-part .accordion-item h2 {
+	font-size: 16px;
+}
+#testimonial-part .testimonial_slider::after {
+	width: 65%;
+	right: 35px;
+}
+#testimonial-part .testimonial_slider::before {
+	width: 65%;
+	left: 35px;
+}
+#testimonial-part .details-slider {
+	padding: 30px 0;
+	margin-bottom: 50px;
+}
+#testimonial-part .details-slider .slick-dots {
+	position: absolute;
+	bottom: -4%;
+	left: 10%;
+	transform: translateX(-50%);
+	padding: 0;
+}
+#testimonial-part .details-slider .slick-dots li {
+	display: inline-block;
+}
+#testimonial-part .details-slider .slick-dots .slick-active button {
+	background: #fbaa33;
+	border-color: #fbaa33;
+}
+#testimonial-part .details-slider .slick-dots li button {
+	font-size: 0;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #8a8988;
+	background: transparent;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+#testimonial-part .accordion {
+	padding-left: 10px;
+    padding-right: 10px;
+}
+/* =================testimonial-part end=============== */
+
+/* =================teacher-part start=============== */
+#teacher-part {
+    padding-bottom: 90px;
+}
+#teacher-part .slick-dots {
+	position: absolute;
+	bottom: -14%;
+	left: 49%;
+	transform: translateX(-50%);
+	padding: 0;
+}
+#teacher-part .slick-dots li {
+	display: inline-block;
+}
+#teacher-part .slick-dots li button {
+	font-size: 0;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #8a8988;
+	background: transparent;
+	border-radius: 50%;
+	margin: 0 3px;
+}
+#teacher-part .slick-dots .slick-active button {
+	background: #fbaa33;
+	border-color: #fbaa33;
+}
+/* =================teacher-part end=============== */
+
+/* =================blog-part end=============== */
+#blog-part {
+	transform: translateY(-8%);
+}
+#blog-part .image .overlay .icon ul {
+	margin-top: 10px;
+    margin-bottom: 0;
+}
+#blog-part .image .overlay .icon ul li {
+	width: 30px;
+	height: 30px;
+    line-height: 30px;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+#blog-part .image .overlay .text h2{
+    margin-bottom: 0 !important;
+}
+#blog-part .image .overlay .text h2 a {
+	font-size: 14px;
+	padding: 0 20px;
+	padding-top: 0;
+}
+#blog-part .image .overlay .text h3 a {
+	font-size: 14px;
+	padding: 0px 20px;
+}
+#blog-part .image .overlay .date{
+    display: none;
+}
+/* =================blog-part end=============== */
+
+/* =================contacts-part end=============== */
+
+#contact-part{
+    margin-top: -75px;
+}
+#contact-part .logo img{
+    padding-left: 10px;
+}
+#contact-part .left p{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#contact-part .left ul{
+    margin-left: 10px;
+}
+#contact-part .center h2{
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+#contact-part .center ul li {
+    padding-left: 18px;
+    padding-bottom: 17px;
+}
+#contact-part .center .teacher {
+    padding-left: 45px;
+}
+#contact-part .right{
+    padding-right: 20px;
+}
+#contact-part .right .location a{
+    margin-top: 10px;
+}
+#contact-part .right a {
+	background: #2d3e50;
+	color: #fff;
+}
+#contact-part .right a:hover {
+	background: none;
+	color: #fff;
+}
+#contact-part .right h2{
+    padding-top: 10px;
+    padding-bottom: 33px;
+}
+#contact-part .right p{
+    padding-bottom: 30px;
+}
+#contact-part .right a{
+    margin: 0;
+    margin-left: 20px;
+}
+#contact-part .right h3{
+    padding-bottom: 5px;
+}
+/* =================contacts-part end=============== */
+
+/* =================footer-part start=============== */
+footer p {
+	font-size: 12px;
+}
+/* =================footer-part end=============== */
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+    /* =================header start=============== */
+        header p {
+            margin-top: 20px;
+            text-align: center;
+        }
+        header .reg {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+    /* =================header end=============== */
+    /* =================navbar start=============== */
+        .navbar-toggler{
+            margin-top: 30px;
+        }
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        .navbar-toggler i{
+            font-size: 30px;
+            color: #2d3e50;
+        }
+        nav ul{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 0;
+        }
+        nav ul li{
+            margin-bottom: 10px;
+            padding-top: 0;
+            padding-right: 0;
+        }
+        nav ul li a{
+        color: white;
+        }
+        nav .button {
+            background: #2d3e50;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        nav .button a {
+            margin-top: 0;
+            margin-left: 0;
+        }
+        
+    /* =================navbar end=============== */
+    /* =================banner start=============== */
+    #banner-part .banner .overlay {
+        padding-top: 40px;
+        padding-bottom: 75px;
+    }
+    #banner-part .banner .overlay h2 {
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay h3 {
+        font-size: 42px;
+    }
+    #banner-part .banner .overlay p {
+        width: auto;
+        padding-bottom: 30px;
+    }
+    #banner-part .banner .overlay a {
+        font-size: 16px;
+        padding: 13px 12px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0 !important;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /* =================banner end=============== */
+    
+    /* =================banner-bottom start=============== */
+    #banner-bottom {
+        margin-bottom: 50px;
+    }
+    #banner-bottom .item {
+        transform: translateY(0);
+        margin-bottom: 5px;
+    }
+    .title p {
+        padding-top: 0;
+        width: auto;
+    }
+    /* =================banner-bottom end=============== */
+
+    /* =================course-part start=============== */
+    #counter-part .item {
+        padding: 25px 0;
+    }
+    /* =================course-part end=============== */
+
+    /* =================about-part start=============== */
+    #about-part .slick-dots {
+        left: 15%;
+    }
+    #about-part .rev_slider::after {
+        bottom: 12%;
+    }
+    #about-part .rev_slider::before {
+        top: -4%;
+    }
+    #about-part .text-part {
+        padding-top: 0;
+    }
+    #about-part .text-part a {
+        padding: 12px 10px;
+    }
+    
+    /* =================about-part end=============== */
+    
+    /* =================course-part start=============== */
+    #course-part .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+    #course-part ul{
+        text-align: center;
+        padding: 0;
+    }
+    #course-part .slick-dots li {
+        display: inline-block;
+    }
+    #course-part .slick-dots li button {
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    /* =================course-part end=============== */
+    
+    /* =================event-part start=============== */
+    #event-part .calender img{
+        padding: 0 12px;
+        margin-bottom: 30px;
+    }
+    #event-part .item{
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    #event-part .item:hover {
+        box-shadow: none;
+    }
+    #event-part .item .img{
+        padding: 25px;
+        
+    }
+    #event-part .item .img img{
+        margin-top: 30px;
+    }
+    #event-part .item .img .overlay {
+        width: 19%;
+        height: 17%;
+        bottom: 26px;
+        right: 25px;
+    } 
+    #event-part .item .text {
+        padding: 10px 25px;
+        padding-left: 25px;
+        box-sizing: border-box;
+        padding-left: 34px;
+    } 
+    /* =================event-part end=============== */
+    
+    /* =================testimonial-part start=============== */
+    #testimonial-part .details p {
+        width: auto;
+        padding-left: 66px;
+        padding-top: 20px;
+        padding-right: 60px;
+    }
+    #testimonial-part .details h2 {
+        font-size: 22px;
+        padding-bottom: 7px;
+        padding-top: 20px;
+    }
+    #testimonial-part .details h2 span {
+        font-size: 14px;
+    }
+    #testimonial-part .accordion-item h2 {
+        font-size: 20px;
+    }
+    #testimonial-part .testimonial_slider::after {
+        width: 65%;
+        right: 35px;
+    }
+    #testimonial-part .testimonial_slider::before {
+        width: 65%;
+        left: 35px;
+    }
+    #testimonial-part .details-slider {
+        padding: 30px 0;
+        margin-bottom: 50px;
+    }
+    #testimonial-part .details-slider .slick-dots {
+        position: absolute;
+        bottom: -4%;
+        left: 10%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+    #testimonial-part .details-slider .slick-dots li {
+        display: inline-block;
+    }
+    #testimonial-part .details-slider .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+    #testimonial-part .details-slider .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+    #testimonial-part .accordion {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* =================testimonial-part end=============== */
+    
+    /* =================teacher-part start=============== */
+    #teacher-part {
+        padding-bottom: 90px;
+    }
+    #teacher-part .slick-dots {
+        position: absolute;
+        bottom: -14%;
+        left: 49%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+    #teacher-part .slick-dots li {
+        display: inline-block;
+    }
+    #teacher-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 3px;
+    }
+    #teacher-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+    /* =================teacher-part end=============== */
+    
+    /* =================blog-part end=============== */
+    #blog-part {
+        transform: translateY(-5%);
+    }
+    #blog-part .image .overlay .text h2 a {
+        padding: 0 28px;
+        padding-top: 25px;
+    }
+    #blog-part .image .overlay .text h3 a {
+        padding-bottom: 15px;
+    }
+    #blog-part .image .overlay .small .icon ul {
+        margin-top: 45px;
+    }
+    #blog-part .image .overlay .small .icon ul li {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    #blog-part .image .overlay .small .text h2 a {
+        font-size: 22px;
+        padding-top: 130px;
+    }
+    #blog-part .image .overlay .small .text h3 a {
+        font-size: 16px;
+        padding-top: 14px;
+    }
+    /* =================blog-part end=============== */
+    
+    /* =================contacts-part end=============== */
+    
+    #contact-part{
+        margin-top: -75px;
+    }
+    #contact-part .logo img{
+        padding-left: 10px;
+    }
+    #contact-part .left p{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    #contact-part .left ul{
+        margin-left: 10px;
+    }
+    #contact-part .center h2{
+        margin-left: 5px;
+        margin-bottom: -10px;
+    }
+    #contact-part .center ul li {
+        padding-left: 18px;
+        padding-bottom: 17px;
+    }
+    #contact-part .center .teacher {
+        padding-left: 145px;
+    }
+    #contact-part .right{
+        padding-right: 20px;
+    }
+    #contact-part .right .location a{
+        margin-top: 10px;
+    }
+    #contact-part .right h2{
+        padding-top: 10px;
+        padding-bottom: 33px;
+    }
+    #contact-part .right p{
+        padding-bottom: 30px;
+    }
+    #contact-part .right a{
+        margin: 0;
+        margin-left: 20px;
+    }
+    #contact-part .right h3{
+        padding-bottom: 5px;
+    }
+    /* =================contacts-part end=============== */
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+        /* =================header start=============== */
+            header p {
+                text-align: center;
+            }
+            header .reg {
+                display: inline-block;
+                text-align: center;
+            }
+        /* =================header end=============== */
+        /* =================navbar start=============== */
+            .navbar-toggler{
+                margin-top: 30px;
+            }
+            .navbar-toggler:focus {
+                box-shadow: none;
+            }
+            .navbar-toggler i{
+                font-size: 30px;
+                color: #2d3e50;
+            }
+            nav ul{
+            background: #2d3e50;
+            text-align: center;
+            padding: 20px 0;
+            }
+            nav ul li{
+                margin-bottom: 10px;
+                padding-top: 0;
+                padding-right: 0;
+            }
+            nav ul li a{
+            color: white;
+            }
+            nav .button {
+                background: #2d3e50;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            nav .button a {
+                margin-top: 0;
+                margin-left: 0;
+            }
+            
+        /* =================navbar end=============== */
+        /* =================banner start=============== */
+        #banner-part .banner .overlay {
+            padding-top: 40px;
+            padding-bottom: 75px;
+        }
+        #banner-part .banner .overlay h2 {
+            font-size: 30px;
+        }
+        #banner-part .banner .overlay h3 {
+            font-size: 42px;
+        }
+        #banner-part .banner .overlay p {
+            width: auto;
+            padding-bottom: 30px;
+        }
+        #banner-part .banner .overlay a {
+            font-size: 16px;
+            padding: 13px 12px;
+        }
+        #banner-part .slick-dots{
+            position: absolute;
+            bottom: 0;left: 50%;
+            transform: translateX(-50%);
+            padding-left: 0 !important;
+        }
+        #banner-part .slick-dots li{
+            display: inline-block;
+        }
+        #banner-part .slick-dots li button {
+            font-size: 0;
+            background: transparent;
+            border: 1px solid #fbaa33;
+            border-radius: 50%;
+            margin: 0 10px;
+            width: 10px;
+            height: 10px;
+        }
+        #banner-part .slick-dots .slick-active button{
+            background: #fbaa33;
+        }
+        #banner-part .next{
+            right: 0;
+        }
+        #banner-part .prev{
+            left: 0;
+        }
+        /* =================banner end=============== */
+        
+        /* =================banner-bottom start=============== */
+        #banner-bottom {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        #banner-bottom .item h4 {
+            font-size: 18px;
+        }
+        #banner-bottom .item {
+            transform: translateY(0);
+        }
+        .title p {
+            padding-top: 0;
+            width: auto;
+        }
+        /* =================banner-bottom end=============== */
+    
+        /* =================counter-part start=============== */
+        #counter-part .item {
+            padding: 25px 0;
+        }
+        /* =================counter-part end=============== */
+    
+        /* =================about-part start=============== */
+        #about-part .slick-dots {
+            left: 15%;
+        }
+        #about-part .rev_slider::after {
+            bottom: 12%;
+        }
+        #about-part .rev_slider::before {
+            top: -4%;
+        }
+        #about-part .text-part {
+            padding-top: 0;
+        }
+        #about-part .text-part a {
+            padding: 12px 10px;
+        }
+        
+        /* =================about-part end=============== */
+        
+        /* =================course-part start=============== */
+        #course-part {
+            margin-bottom: 100px;
+        }
+        #course-part .slick-dots .slick-active button {
+            background: #fbaa33;
+        }
+        #course-part ul{
+            text-align: center;
+            padding: 0;
+        }
+        #course-part .slick-dots li {
+            display: inline-block;
+        }
+        #course-part .slick-dots li button {
+            font-size: 0;
+            background: transparent;
+            border: 1px solid #fbaa33;
+            border-radius: 50%;
+            margin: 0 10px;
+            width: 10px;
+            height: 10px;
+        }
+        #course-part .next{
+            top:104%;
+            right: 40%;
+        }
+        #course-part .prev{
+            top:104%;
+            left: 40%;
+        }
+        /* =================course-part end=============== */
+        
+        /* =================event-part start=============== */
+        #event-part .calender img{
+            padding: 0 12px;
+            margin-bottom: 30px;
+        }
+        #event-part .item{
+            display: inline;
+            margin: 0 10px;
+            padding: 0;
+        }
+        
+        #event-part .item-part{
+            display: flex;
+        }
+        #event-part .item .img{
+            padding: 25px;
+            
+        }
+        
+        #event-part .item .img .overlay {
+            width: 19%;
+            height: 17%;
+            bottom: 26px;
+            right: 25px;
+        } 
+        #event-part .item .text {
+            padding: 10px 25px;
+            padding-left: 25px;
+            box-sizing: border-box;
+            padding-left: 34px;
+        }   
+    
+
+        /* =================event-part end=============== */
+        
+        /* =================testimonial-part start=============== */
+        #testimonial-part .details p {
+            padding-left: 100px;
+            padding-top: 20px;
+            padding-right: 60px;
+        }
+        #testimonial-part .details h2 {
+            padding-left: 100px;
+            font-size: 22px;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        }
+        #testimonial-part .details ul {
+            padding-left: 100px;
+        }
+        #testimonial-part .details h2 span {
+            font-size: 14px;
+        }
+        #testimonial-part .accordion-item h2 {
+            font-size: 20px;
+        }
+        #testimonial-part .testimonial_slider::after {
+            width: 65%;
+            right: 48px;
+        }
+        #testimonial-part .testimonial_slider::before {
+            width: 65%;
+            left: 48px;
+        }
+        #testimonial-part .details-slider {
+            padding: 30px 0;
+            margin-bottom: 50px;
+        }
+        #testimonial-part .details-slider .slick-dots {
+            position: absolute;
+            bottom: -4%;
+            left: 10%;
+            transform: translateX(-50%);
+            padding: 0;
+        }
+        #testimonial-part .details-slider .slick-dots li {
+            display: inline-block;
+        }
+        #testimonial-part .details-slider .slick-dots .slick-active button {
+            background: #fbaa33;
+            border-color: #fbaa33;
+        }
+        #testimonial-part .details-slider .slick-dots li button {
+            font-size: 0;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #8a8988;
+            background: transparent;
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+        #testimonial-part .accordion {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        /* =================testimonial-part end=============== */
+        
+        /* =================teacher-part start=============== */
+        #teacher-part {
+            padding-bottom: 90px;
+        }
+        #teacher-part .slick-dots {
+            position: absolute;
+            bottom: -14%;
+            left: 49%;
+            transform: translateX(-50%);
+            padding: 0;
+        }
+        #teacher-part .slick-dots li {
+            display: inline-block;
+        }
+        #teacher-part .slick-dots li button {
+            font-size: 0;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #8a8988;
+            background: transparent;
+            border-radius: 50%;
+            margin: 0 3px;
+        }
+        #teacher-part .slick-dots .slick-active button {
+            background: #fbaa33;
+            border-color: #fbaa33;
+        }
+        /* =================teacher-part end=============== */
+        
+        /* =================blog-part end=============== */
+        #blog-part {
+            transform: translateY(-15%);
+        }
+        #blog-part .image .overlay .big{
+            display: none;
+        }
+        #blog-part .image .overlay .small .icon ul {
+            margin-top: 45px;
+        }
+        #blog-part .image .overlay .small .icon ul li {
+            width: 45px;
+            height: 45px;
+            font-size: 18px;
+            line-height: 45px;
+            margin-bottom: 15px;
+        }
+        #blog-part .image .overlay .small .text h3 a {
+            font-size: 16px;
+            padding-top: 14px;
+        }
+        /* =================blog-part end=============== */
+        
+        /* =================contacts-part end=============== */
+        
+        #contacts-part .center h2 {
+            padding-bottom: 25px;
+        }
+        #contacts-part .right h2 {
+            padding-bottom: 25px;
+        }
+        #contacts-part .right .icon ul li {
+            padding-bottom: 48px;
+        }
+        #contacts-part .right .icon ul li a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        #contacts-part .right .address {
+            padding-left: 0;
+        }
+        /* =================contacts-part end=============== */
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    header p {
+        margin-right: 4px;
+    }
+/*=====nav part start=====*/
+    nav ul li {
+        font-size: 16px;
+        padding-right: 8px;
+        padding-top: 28px;
+    }
+    nav .button a {
+        margin-left: 25px;
+    }
+    /*=====nav part end=====*/
+
+    /*=====course-part start=====*/
+    #course-part .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+    #course-part ul{
+        text-align: center;
+        padding: 0;
+    }
+    #course-part .slick-dots li {
+        display: inline-block;
+    }
+    #course-part .slick-dots li button {
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    /*=====course-part end=====*/
+
+    /*=====event-part start=====*/
+    #event-part .item .button a {
+        margin-bottom: 10px;
+    }
+    /*=====event-part end=====*/
+
+    /*=====testimonial-part start=====*/
+    #testimonial-part .prev {
+        left: -15%;
+    }
+    #testimonial-part .next {
+        left: -15%;
+    }
+    #testimonial-part .accordion-item h2 {
+        font-size: 16px;
+    }
+    /*=====testimonial-part end=====*/
+
+    /*=====blog-part start=====*/
+    #blog-part {
+        transform: translateY(-25%);
+    }
+    #blog-part .image .overlay .icon ul {
+        margin-top: 20px;
+    }
+    #blog-part .image .overlay .icon ul li {
+        margin-bottom: 10px;
+    }
+    #blog-part .image .overlay .text h2 a {
+        padding: 0 30px;
+    }
+    #blog-part .image .overlay .text h3 a {
+        padding-bottom: 20px;
+    }
+    #blog-part .image .overlay .date p a {
+        font-size: 12px;
+    }
+    #blog-part .image .overlay .small .icon ul {
+        margin-top: 10px;
+    }
+    #blog-part .image .overlay .small .text h2 a {
+        padding-top: 0;
+    }
+    #blog-part .image .overlay .small .text h3 a {
+        display: none;
+    }
+    /*=====blog-part end=====*/
+}
