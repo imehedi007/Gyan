@@ -179,12 +179,9 @@
     margin-bottom: 30px;
 }
 #event-part .item{
-    display: inline;
+    display: inline-block;
     margin: 0;
     padding: 0;
-}
-#event-part .item:hover {
-    box-shadow: none;
 }
 #event-part .item .img{
     padding: 25px;

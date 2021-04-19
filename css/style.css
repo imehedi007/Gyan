@@ -3,9 +3,6 @@
   padding: 0;
   outline: 0;
 }
-body{
-  overflow-x: hidden;
-}
 ul,
 ol {
   list-style: none;
@@ -329,7 +326,9 @@ nav .button a:hover {
 /*===============================
         about-part css start
   ===============================*/
-
+  #about-part{
+    overflow-x: hidden;
+  }
 #about-part .slick-slider {
   margin-left: -12%;
   margin-right: -12%;
@@ -889,6 +888,7 @@ box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
   padding-top: 100px;
   background: #f5f5f5;
   padding-bottom: 60px;
+  overflow-x: hidden;
 }
 #testimonial-part .slick-slider {
   margin-left: -12%;
